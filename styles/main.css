@@ -54,7 +54,10 @@ input {
   height: 700px;
   position: relative;
   line-height: 1;
-  margin: auto; }
+  margin: auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
   .header__top {
     position: absolute;
     top: 24px;
@@ -214,6 +217,13 @@ input {
             align-items: center; }
     .info__heading {
       padding-bottom: 20px; } }
+
+@media (max-width: 500px) {
+  .info__heading {
+    max-width: 350px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; } }
 
 .link {
   text-decoration: none;
