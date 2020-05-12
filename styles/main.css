@@ -10,7 +10,10 @@ html {
   height: 700px;
   background-image: url(../images/header.jpg);
   background-size: cover;
-  background-position: center; }
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
 
 html,
 body,
