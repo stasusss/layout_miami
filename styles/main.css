@@ -1,3 +1,10 @@
+html {
+  scroll-behavior: smooth; }
+
+.container {
+  max-width: 1260px;
+  margin: auto; }
+
 html,
 body,
 ul,
@@ -79,8 +86,8 @@ input {
     color: #fff;
     text-decoration: none;
     border-bottom: 1px solid;
-    -webkit-transition: color 0.5s;
-    transition: color 0.5s;
+    -webkit-transition: color 0.25s;
+    transition: color 0.25s;
     text-transform: uppercase; }
     .header__link-number {
       text-decoration: none;
@@ -134,8 +141,8 @@ input {
   .nav__link {
     color: #fff;
     text-decoration: none;
-    -webkit-transition: color 0.5s;
-    transition: color 0.5s; }
+    -webkit-transition: color 0.25s;
+    transition: color 0.25s; }
     .nav__link:hover {
       color: #9fadc2; }
 
@@ -202,8 +209,8 @@ input {
 .link {
   text-decoration: none;
   color: #0075ff;
-  -webkit-transition: color 0.5s;
-  transition: color 0.5s; }
+  -webkit-transition: color 0.25s;
+  transition: color 0.25s; }
   .link:hover {
     color: #9fadc2; }
 
@@ -242,8 +249,8 @@ input {
     -o-object-position: center;
        object-position: center;
     border-radius: 8px;
-    -webkit-transition: opacity 0.5s;
-    transition: opacity 0.5s; }
+    -webkit-transition: opacity 0.25s;
+    transition: opacity 0.25s; }
     .photos__img:hover {
       opacity: 0.7; }
   .photos-left .photos__img:first-child {
@@ -269,8 +276,8 @@ input {
   display: block;
   font-size: 16px;
   line-height: 14px;
-  -webkit-transition: background-color 0.5s;
-  transition: background-color 0.5s;
+  -webkit-transition: background-color 0.25s;
+  transition: background-color 0.25s;
   cursor: pointer;
   padding: 21px 65px;
   border: 2px solid #0075ff;
@@ -340,7 +347,7 @@ input {
   color: #000;
   padding: 17px;
   background-color: #f7f8ff;
-  border: 1px solid #fff;
+  border: 2px solid #fff;
   border-radius: 8px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box; }
@@ -374,8 +381,8 @@ input {
     width: 153px;
     height: 153px;
     border-radius: 50%;
-    -webkit-transition: opacity 0.5s;
-    transition: opacity 0.5s; }
+    -webkit-transition: opacity 0.25s;
+    transition: opacity 0.25s; }
     .person__photo:hover {
       opacity: 0.7; }
   .person__name {
