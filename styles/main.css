@@ -266,8 +266,6 @@ input {
   display: block;
   font-size: 16px;
   line-height: 14px;
-  color: #0075ff;
-  background-color: #fff;
   -webkit-transition: background-color 0.5s;
   transition: background-color 0.5s;
   cursor: pointer;
@@ -276,9 +274,18 @@ input {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border-radius: 8px; }
-  .button:hover {
-    background-color: #0075ff;
-    color: #fff; }
+  .button-primary {
+    color: #fff;
+    background-color: #0075ff; }
+    .button-primary:hover {
+      background-color: #fff;
+      color: #0075ff; }
+  .button-secondary {
+    color: #0075ff;
+    background-color: #fff; }
+    .button-secondary:hover {
+      background-color: #0075ff;
+      color: #fff; }
 
 .consultation {
   display: -webkit-box;
