@@ -220,7 +220,7 @@ input {
 
 @media (max-width: 500px) {
   .info__heading {
-    max-width: 350px;
+    max-width: 300px;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center; } }
